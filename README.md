@@ -54,7 +54,7 @@ $make cleanall
 
 ## Sample output
 
-Here is an one instance of the map. Check all those big circles near the ocean side than the inland one.
+Here is the output. 
 
 <img src= "img/orig.gif" align='center'> 
 
