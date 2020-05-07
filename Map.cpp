@@ -63,10 +63,10 @@ void Map::drawMap()
 
             switch (typeBack)
             {
-            case 0:
+            case 1:
                 TextureManager::draw(whiteback, srcD, dstD);
                 break;
-            case 1:
+            case 0:
                 TextureManager::draw(blueBack, srcD, dstD);
                 break;
 

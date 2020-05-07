@@ -15,11 +15,11 @@
 // dstRect.y = SCREEN_HEIGHT / 2 - dstRect.h / 2;
 
 uavObject *uav1;
-uavObject *uav2;
+// uavObject *uav2;
 Map *map;
 // blitImage *bg;
-float initXpos = SCREEN_WIDTH / 2 + 100;
-float initYpos = SCREEN_HEIGHT / 2 - 350;
+float initXpos = SCREEN_WIDTH / 2 - 50;
+float initYpos = SCREEN_HEIGHT / 2 - 250;
 
 SDL_Renderer *Sim::renderer = nullptr;
 
@@ -86,7 +86,7 @@ void Sim::init(const char *title, int xpos, int ypos, int width, int height,
             // UAV texture, get more textures
 
             uav1 = new uavObject("img/uav34.png", initXpos, initYpos); //SCREEN_WIDTH / 2 - 10, SCREEN_HEIGHT / 2 - 30);
-            uav2 = new uavObject("img/uav34.png", initXpos - 450, initYpos + 100);
+            // uav2 = new uavObject("img/uav34.png", initXpos - 450, initYpos + 100);
             map = new Map();
             // SDL_FreeSurface(tmpSurf);
             //bg = new blitImage;
@@ -112,7 +112,7 @@ void Sim::handleEvents()
 void Sim::update(float x, float y)
 {
     uav1->update(initXpos, initYpos, x, y);
-    uav2->update(initXpos - 450, initYpos + 100, x, y);
+    // uav2->update(initXpos - 450, initYpos + 100, x, y);
 }
 
 void Sim::render()
@@ -123,7 +123,7 @@ void Sim::render()
     map->drawMap();
     // bg->drawBackground();
     uav1->render();
-    uav2->render();
+    // uav2->render();
 
     SDL_RenderPresent(renderer);
 }
@@ -136,7 +136,7 @@ void Sim::clean()
     SDL_Quit();
     printf("called delete\n");
     delete uav1;
-    delete uav2;
+    // delete uav2;
     // delete bg;
     // delete map;
 
