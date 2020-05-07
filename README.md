@@ -30,14 +30,26 @@ The following packages are required:
 
 	
 ## Setup
-To run this project, download the repository to any folder. Open the folder and run the following main script from terminal/command line/ide:
+To run this project, download this repository to your computer. Open the folder and run the following script from the terminal:
 ```
 $make
 ```
+Once successfully compiled, run the simulator with,
 
-once done, run
+```
+./uavSim
+
+```
+
+To clean, run
+```
+$make clean
+```
+or to completely clean,
+
 ```
 $make cleanall
+
 ```
 
 ## Sample output
