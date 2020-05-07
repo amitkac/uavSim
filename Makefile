@@ -14,7 +14,7 @@ all: $(TARGET_EXEC)
 
 $(TARGET_EXEC):$(OBJS)
 	@$(CXX) $(CPPFLAGS) -o $(TARGET_EXEC) $(OBJS) $(LDLIBS)
-	$(info succesfully compiled)$
+	$(info successfully compiled)$
 
 clean:
 	$(RM) $(OBJS)
