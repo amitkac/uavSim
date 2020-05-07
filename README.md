@@ -3,7 +3,7 @@
 [![License](https://poser.pugx.org/ali-irawan/xtra/license.svg)](https://poser.pugx.org/ali-irawan/xtra/license.svg)
 <img src= "img/C-blue.svg">
 
-This simulator is based on our work considering UAV motion in atmosphere. The Turbulence caused by wind gusts was modelled by very 
+This simulator is based on our work considering UAV motion in atmosphere. The Turbulence caused by wind gusts were modelled by the very 
 famous Dryden wind model. More details about this Dryden model can be found in https://en.wikipedia.org/wiki/Dryden_Wind_Turbulence_Model.
 
 
@@ -16,7 +16,7 @@ famous Dryden wind model. More details about this Dryden model can be found in h
 ## General info
 This is a simple C++ programme that utilizes ```open source SDL library``` used for `games` to create the  UAV motion simulation 
 under wind gusts. The wind gusts is modelled by Dryden wind motion. 
-* Most importantly, you need to install `SDL2` and `SDL2_image` library before starting out.
+* To run this program, you need to have `SDL2` and `SDL2_image` library package.
 * Also, you need to have `gcc` compiler.
 * SDL tutorial credit goes to ```https://lazyfoo.net/tutorials/SDL/```, and ```https://youtu.be/QQzAHcojEKg```. The youtube tutorial were very much referenced in this project.
 
