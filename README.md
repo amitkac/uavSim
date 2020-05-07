@@ -18,6 +18,7 @@ This is a simple C++ programme that utilizes ```open source SDL library``` used 
 under wind gusts. The wind gusts is modelled by Dryden wind motion. 
 * Most importantly, you need to install `SDL2` and `SDL2_image` library before starting out.
 * Also, you need to have `gcc` compiler.
+* SDL tutorial credit goes to ```https://lazyfoo.net/tutorials/SDL/```, and ```https://youtu.be/QQzAHcojEKg```. The youtube tutorial were very much referenced in this project.
 
 	
 ## Prerequisites
