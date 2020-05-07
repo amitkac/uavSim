@@ -56,7 +56,7 @@ $make cleanall
 
 Here is the output. 
 
-<img src= "img/orig.gif" align='center'> 
+<img src= "img/orig3.gif" align='center'> 
 
 These experiments were done in a lab on a robotic arm which emulated the UAV motion under wind gusts.
 
