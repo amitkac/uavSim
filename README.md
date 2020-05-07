@@ -23,7 +23,7 @@ under wind gusts. The wind gusts is modelled by Dryden wind motion.
 	
 ## Prerequisites
 The following packages are required:
-* C: gcc compiler
+* C++: gcc compiler
 * SDL2: https://www.libsdl.org/download-2.0.php
 * SDL2_image: https://www.libsdl.org/projects/SDL_image/ 
 * ROS log files in ```.csv``` format without empty columns (I still need to work better with the csvReader module)
