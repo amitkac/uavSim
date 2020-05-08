@@ -58,7 +58,7 @@ Here is the output.
 
 <img src= "img/orig3.gif" align='center'> 
 
-These experiments were done in a lab on a robotic arm which emulated the UAV motion under wind gusts.
+More data will be added, once the research paper is published.
 
 
 
