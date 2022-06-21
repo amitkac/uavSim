@@ -19,7 +19,7 @@ under wind gusts. The wind gusts is modelled by Dryden wind motion.
 * To run this program, you need to have `SDL2` and `SDL2_image` library package.
 * Also, you need to have `gcc` compiler.
 * SDL tutorial credit goes to ```https://lazyfoo.net/tutorials/SDL/```, and ```https://youtu.be/QQzAHcojEKg```. The youtube tutorial is the best, and used a lot in this project.
-
+* If you like this work or you are reusing part of this repository for your research, please cite my paper, ```A. Kachroo et al., "Emulating UAV Motion by Utilizing Robotic Arm for mmWave Wireless Channel Characterization," in IEEE Transactions on Antennas and Propagation, vol. 69, no. 10, pp. 6691-6701, Oct. 2021, doi: 10.1109/TAP.2021.3069484.```
 	
 ## Prerequisites
 The following packages are required:
